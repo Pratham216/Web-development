@@ -1,0 +1,11 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Jacquard+12+Charted&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jacquard+12+Charted&family=Rubik+Glitch&display=swap');
+
+
+body {
+    background-color: black;
+    color: rgb(0, 255, 0);
+    font-family:  "Rubik Glitch"system-ui;
+    font-size: 30px;
+}

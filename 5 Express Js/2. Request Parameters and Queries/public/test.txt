@@ -1,0 +1,1 @@
+This file can be only accessed if it is public not every file will be displayed to the user

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box:first-child {
+            color: red;
+        }
+
+        .box:nth-child(2) {
+            color: blue;
+        }
+
+        .box:nth-last-child(1) {
+            color: purple;
+        }
+
+        .boxes::before {
+            content: "My name is pratham";
+        }
+
+        .boxes::after {
+            content: "I am an avenger";
+        }
+
+        .box::first-letter {
+            color: peru;
+            font-size: 30px;
+
+        }
+        .boxes::first-line {
+            color: pink;
+        }
+
+        ::selection{
+            color: white;
+            background-color: black;
+        }
+
+        input::placeholder{
+            color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="boxes"> <!--  .boxes>.box*3 -->
+        <div class="box">i am first box</div>
+        <div class="box">hey i am box2</div>
+        <div class="box">hey i am box3</div>
+        <input type="text" placeholder="Enter your text here">
+    </div>
+</body>
+
+</html>

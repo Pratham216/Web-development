@@ -1,0 +1,35 @@
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    width: 900px;
+    background-color: rgb(17, 17, 17);
+    color: white;
+    margin-bottom: 10px;
+}
+
+.image img{
+    width: 200px;
+    margin-right: 20px;
+    border-radius: 7px;
+
+}
+.text p{
+    font-weight: 300;
+    font-size: 17px;
+}
+.image{
+    position: relative;
+}
+
+.duration{
+    position: absolute;
+    bottom: 8px;
+    right: 25px;
+    background-color: rgba(57, 57, 57, 0.767);
+    border-radius: 5px;
+    padding: 3px;
+    
+}

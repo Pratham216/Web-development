@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model|padding,Margin & Borders</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .box{
+            background-color: aqua;
+        }
+        .box1{
+            border: 5px solid ;
+            margin: 10px;
+            padding: 10px;
+            height: 80px;
+/* if we set only height as 200px then it will make the height of the content as 200px 
+but if we make box-sizing :border-box then it will make content,border and padding height as 200px. */
+            box-sizing: border-box;
+        }
+        .box2{
+            border: 5px solid red ;
+            margin: 25px;
+            padding: 30px;
+            height: 80px;
+/* if we set only height as 200px then it will make the height of the content as 200px 
+but if we make box-sizing :border-box then it will make content,border and padding height as 200px. */
+            /* box-sizing: border-box; */
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="box box1">I am a box .</div>
+    <div class="box box2">I am an another box .</div>
+</body>
+</html>

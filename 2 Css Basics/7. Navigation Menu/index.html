@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation Tab</title>
+</head>
+<style>
+    .navbar {
+        background-color: rgb(14, 3, 90);
+        border-radius: 30px;
+    }
+
+    .navbar ul {
+        overflow: auto;
+    }
+
+    .navbar li {
+        margin: 13px 20px;
+        float: left;
+        list-style: none;
+        /* it is used to remove the bullets which were floating on the left side of our webpage. */
+    }
+
+    .navbar li a {
+        padding: 3px 3px;
+        text-decoration: none;
+        color: white;
+        
+    }
+
+
+    #searchbar {
+        float: right;
+        border-radius: 30px;
+        padding: 13px;
+    }
+
+    #search {
+        float: right;
+        height: 32px;
+        padding: 6px 2px;
+
+    }
+
+    .navbar li a:hover{
+        background-color: rgb(255, 255, 255);  
+        color: rgb(0, 0, 0);
+        
+    }
+
+        
+
+</style>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="https://google.com">Home</a></li>
+                <li><a href="https://www.linkedin.com/in/pratham216">About</a></li>
+                <li><a href="https://www.amazon.in">Services</a></li>
+                <li><a href="https://www.instagram.com/pratham216/">Contact Us</a></li>
+                <div>
+                    <input type="search" name="searchbar" id="searchbar" placeholder="Search here ">
+                </div>
+
+                <img id="search" src="https://cdn-icons-png.flaticon.com/512/7163/7163070.png" alt="search">
+            </ul>
+        </nav>
+    </header>
+</body>
+
+</html>

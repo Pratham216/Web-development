@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Sizes</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .box {
+            
+            border: 2px solid black;
+            background-color: aqua;
+            width: 30vw;
+            height: 10vh;
+            margin: auto;
+            box-sizing: border-box;
+        }
+
+        .container {
+            box-sizing: border-box;
+            border: 2px solid red;
+            background-color: rgb(0, 0, 0);
+            color: white;
+            /* width: 2048px; */
+            width: 80vw;
+            margin: 20px auto;
+            font-size: 18px;
+
+            /* height: 80vh;  */
+            /* it will give u a comulsory height of 80vh but we dont need this much height all the time we can give it  a min height so its the least height which will be given and if there is more content the height will increase automatically */
+
+            min-height: 50vh;
+        }
+
+        .container>div {
+            border: 4px solid pink;
+            width: 80%;
+            font-size: 2em;
+        }
+
+        .container>div>div {
+            border: 5px solid blue;
+            width: 60%;
+        }
+
+        .mycont{
+            border: 2px solid darkgoldenrod;
+            margin: 20px auto;
+            font-size: 20px;
+            width: 20vw;
+        }
+
+
+
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        I am a box
+    </div>
+
+    <div class="container">
+        <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam quia illo obcaecati nemo doloribus? Velit
+            exercitationem minus officiis aliquid, sint suscipit fugit, laboriosam rerum aspernatur alias incidunt est
+            sunt quos perferendis iusto iure non neque molestias dicta totam doloremque laudantium harum nisi eos? Ut
+            saepe id et culpa praesentium magni ullam. Reiciendis asperiores nihil temporibus perspiciatis.
+
+            <div>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero omnis voluptas est aliquam, dolores rem
+                laudantium nulla maiores odio fugit, totam voluptatem saepe!
+            </div>
+        </div>
+    </div>
+    <div class="mycont">
+        I am another container 
+       
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS transition</title>
+    <style>
+        .container{
+            background-color: pink;
+            height: 60vh;
+            width: 80vw;
+        }
+        .box{
+            background-color: aqua;
+            height: 6vh;
+            width: 10vw;
+            transition: all 1s ease-in;
+            /*tranform: ;
+            transition-duration: ;
+            transition-timing-function: ;
+            transition-delay: ; */
+        }
+
+        .translate:hover{
+            transform: translate(35vh, 10vw) scale(1.2);
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box translate"></div>
+    </div>
+</body>
+</html>

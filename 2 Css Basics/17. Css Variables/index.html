@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        :root{
+            --color:pink;
+            --secColor:purple;
+            --defpad:10px;
+        }
+        ul li {
+            list-style-type: none;
+            padding: 30px;
+            opacity: 0.5;
+        }
+        ul{
+            display: flex;
+        }
+        div{
+            border: 2px solid black;
+        }
+        ul li:first-child{
+            --color:blue;
+            background-color: var(--color);
+          /*  color: var(--ColorSec,red); as colorsec is not present it will change the color of the text to red*/
+        }
+
+        .nav{
+            background-color: var(--color);
+        }
+
+        .container{
+            background-color: var(--secColor);
+
+        }
+        .nav:hover{
+            color: rgb(255, 255, 255);
+            background-color: rgb(0, 0, 0);
+        }
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <ul>
+            <li>Home</li>
+            <li>Contact</li>
+            <li>About us</li>
+        </ul>
+    </div>
+
+    <div class="container">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti dicta culpa sapiente! Maiores voluptates illum soluta fuga, deserunt temporibus perferendis, maxime minus officiis obcaecati enim? Ratione, esse quod, saepe quia aut doloribus expedita, minus consequatur pariatur itaque magnam vel voluptatum dolorum porro assumenda exercitationem nostrum.
+    </div>
+</body>
+</html>

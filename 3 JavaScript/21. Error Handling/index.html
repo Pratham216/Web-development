@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>open console to see the error</h1>
+    <script>
+        let a = prompt('Enter the first number');
+        let b = prompt('Enter the second number');
+
+        if(isNaN(a) || isNaN(b)){
+            throw SyntaxError("Sorry this is not allowed..")
+        }
+
+        let sum = parseInt(a)+ parseInt(b);
+
+        prompt('The sum is :', sum);
+        
+        try {
+            console.log('The sum is :', sum*x);
+            
+        } catch (error) {
+            console.log('THis is error and i catched it ');
+            
+        }
+        finally{
+            console.log('The files are being closed ');
+            // if we add return statements in the try catch block  the finally statement will not run otherwise it will run in all cases whether it is error or not
+        }
+
+    </script>
+</body>
+
+</html>

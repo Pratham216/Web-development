@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables | Pratham Bisht</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <table>
+        <colgroup>
+        <col style="background-color: blueviolet;">
+        </colgroup>
+        
+        <colgroup>
+        <col style="background-color: rgb(43, 211, 226);">
+        </colgroup>
+        
+        <colgroup>
+        <col style="background-color: rgb(73, 226, 43);">
+        </colgroup>
+
+        <!-- starting with tables and header footer and rowspan which is used for making 2 column and colspan for 2 rows -->
+        <caption>Avengers Assemble</caption>
+        <thead>
+            Its header
+            <tr>
+                <th>Name </th>
+                <th> Field </th>
+                <th> Fav Lang </th>
+            </tr>
+        </thead>
+        
+        <tbody>
+            
+            <tr>
+                <td>Pratham </td>
+                <td> Programmer </td>
+                <td rowspan="2"> Java </td>
+            </tr>
+            
+            <tr>
+                <td>Tony stark </td>
+                <td> Programmer </td>
+            </tr>
+            
+            <tr>
+                <td colspan="2">Captain America </td>
+                <td> Html </td>
+            </tr>
+            
+            <tr>
+                <td colspan="2">Hulk </td>
+                <td> React </td>
+            </tr>
+        </tbody>
+        
+        <tfoot>
+            Its footer
+            <tr>
+                <td colspan="2">Loki </td>
+                <td> Python </td>
+            </tr>
+        </tfoot>
+        <!-- even if we dont do this thead tbody and tfoot it will all be the same -->
+    </table>
+</body>
+</html>

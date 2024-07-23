@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            display: flex;
+            background-color: gray;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; /* Make the body take the full height of the viewport */
+        }
+
+        .container {
+            background-color: white;
+            border-radius: 15px;
+            width: 475px;
+            height: 572px;
+        }
+
+        .imgg {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 15px; 
+        
+        }
+
+        img {
+            max-width: 100%;
+            max-height: 100%;
+            border-radius: 15px;
+        }
+
+        ul {
+            list-style-type: none;
+            text-align: center;
+            display: flex;
+
+        }
+        ul a:first-child{
+            margin-right: 30px; 
+        }
+
+        li {
+            margin-right: 80px;
+            color: rgb(78, 78, 255);
+        }
+        .container a:hover{
+            color: rgb(10, 173, 213)
+        }
+
+        .Visit {
+            margin: 5px;
+            padding: 5px;
+        }
+        .button{
+            display: flex;
+            justify-content: center;
+        }
+        input[type="button"] {
+            background-color: rgb(61, 61, 247);
+            color: white;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            padding: 5px;
+            margin: 2px;
+            transition: background-color 0.3s;            
+        }
+        input[type="button"]:hover {
+    background-color: rgb(0, 0, 0); /* Change the color on hover */
+}
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="imgg">
+            <img src="https://www.beautiful-views.net/views/palms-sunsets-great-beaches-sea.jpg" alt="beautiful-views">
+        </div>
+
+        <ul>
+            <a href="https://theculturetrip.com/europe/switzerland/articles/17-natural-wonders-in-switzerland-thatll-take-your-breath-away">Nature</a>
+
+            <a href="https://www.myswitzerland.com/en-us/experiences/summer-autumn/listicles/beach-feeling-at-the-lake/"> Beaches</a>
+        </ul>
+
+        <div class="Visit">
+            <h1>
+                Visit Switzerland!!
+            </h1>
+
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, sed ipsam, esse possimus nisi magnam
+                quibusdam fugit architecto, dolorem quae fuga porro accusamus. Labore similique ea non minima sapiente
+                pariatur ullam earum provident architecto.
+            </p>
+
+        </div>
+        <div class="button">
+            <input type="button" value="Read more">
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .right ul {
+            display: flex;
+            gap: 34px;
+        }
+
+        .right ul li {
+            list-style-type: none;
+            display: flex;
+            align-items: center;
+        }
+
+        main {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .middle {
+            margin: 20px;
+            padding: 50px;
+            font-size: 50px;
+        }
+
+        .middle span {
+            font-weight: bolder;
+        }
+
+        .class2 {
+            display: flex;
+            justify-content: center;
+
+        }
+
+        .lower {
+            font-size: 28px;
+            margin: 0px 230px;
+            text-align: center;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            margin-top: 30px;
+        }
+
+        .downloadBox {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 13px;
+            background-color: #00b6d1;
+            color: white;
+            border: 2px solid;
+            border-radius: 7px;
+            font-weight: bold;
+            font-style: normal;
+            text-transform: uppercase;
+            text-decoration: none;
+            padding: 21px;
+        }
+        .downloadBox:hover{
+            background-color: rgb(9, 161, 185);
+            transition: 0.3s ease-in;
+            cursor: pointer;
+        }
+
+        .source {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-right: 585px;
+        }
+
+        .context span {
+            font-weight: 500;
+            font-size: 25px;
+            margin-left: 20px;
+        }
+
+        .BigBox {
+            /* border: 2px solid black; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            max-width: fit-content;
+            max-height: fit-content;
+            margin-top: 28px;
+            margin-left: auto;
+            /* Add this line to center the BigBox horizontally */
+            margin-right: auto;
+
+        }
+
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            /* 3 columns with equal width */
+            grid-gap: 30px;
+            /* Adjust the gap between grid items */
+            padding: 30px;
+
+        }
+
+        .item {
+            background-color: rgba(136, 136, 136, 0.092);
+            height: 20vh;
+            width: 21vw;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .item-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .item-content span {
+            margin-bottom: 50px;
+        }
+
+        .item-content a {
+            font-size: 14px;
+            background-color: #46a549;
+            color: white;
+            border: 2px solid;
+            border-radius: 7px;
+            font-weight: bold;
+            text-decoration: none;
+            padding: 10px;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            
+            <div class="logo">
+                <img width="154px" height="60px"
+                    src="https://www.ultraedit.com/wp-content/uploads/2023/01/UE-Logo-1.webp" alt="">
+            </div>
+            <div class="right">
+                <ul>
+                    <li><span>Products</span> <img
+                            src="https://cdn.hugeicons.com/icons/arrow-down-01-stroke-rounded.svg" alt="arrow-down-01"
+                            width="17" height="17" /></li>
+                    <li><span>Pricing</span><img src="https://cdn.hugeicons.com/icons/arrow-down-01-stroke-rounded.svg"
+                            alt="arrow-down-01" width="17" height="17" /></li>
+                    <li><span>Resources</span><img
+                            src="https://cdn.hugeicons.com/icons/arrow-down-01-stroke-rounded.svg" alt="arrow-down-01"
+                            width="17" height="17" /></li>
+                    <li><span>About Us</span><img src="https://cdn.hugeicons.com/icons/arrow-down-01-stroke-rounded.svg"
+                            alt="arrow-down-01" width="17" height="17" /></li>
+                    <div class="last">
+                        <img width="23px" src="https://www.ultraedit.com/wp-content/themes/Divi_Child/img/Lang.png"
+                            alt="">
+                    </div>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="middle">
+            Download <span>UltraEdit</span> for windows
+        </div>
+    </main>
+    <div class="class2">
+        <div class="lower">
+            Download and try UltraEdit before you buy it! This download includes the full Windows version of the text
+            editor.
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="downloadBox">
+            DOWNLOAD MAC OR LINUX VERSION
+        </div>
+    </div>
+
+    <div class="source">
+        <div class="img2">
+            <img width="50px" src="https://www.ultraedit.com/wp-content/uploads/2023/01/UE_logo_icon_white.png" alt="">
+        </div>
+        <div class="context">
+            <span>Download UltraEdit</span> v2024.0(released 04/19/2024) | Hotfix
+        </div>
+
+    </div>
+
+    <footer>
+        <div class="BigBox">
+            <div class="grid">
+                <div class="item item-1">
+                    <div class="item-content">
+                        <span>English</span> <a href="ue_english_64.exe">Download 64-bit</a>
+                    </div>
+                </div>
+                <div class="item item-2">
+                    <div class="item-content">
+                        <span>English</span>
+                        <a href="ue_english_64.exe">Download 64-bit</a>
+                    </div>
+
+                </div>
+                <div class="item item-3">
+                    <div class="item-content">
+                        <span>English</span>
+                        <a href="ue_english_64.exe">Download 64-bit</a>
+                    </div>
+
+                </div>
+                <div class="item item-4">
+                    <div class="item-content">
+                        <span>English</span>
+                        <a href="ue_english_64.exe">Download 64-bit</a>
+                    </div>
+
+                </div>
+                <div class="item item-5">
+                    <div class="item-content">
+                        <span>English</span>
+                        <a href="ue_english_64.exe">Download 64-bit</a>
+                    </div>
+
+                </div>
+                <div class="item item-6">
+                    <div class="item-content">
+                        <span>English</span>
+                        <a href="ue_english_64.exe">Download 64-bit</a>
+                    </div>
+
+                </div>
+                <div class="item item-7">
+                    <div class="item-content">
+                        <span>English</span>
+                        <a href="ue_english_64.exe">Download 64-bit</a>
+                    </div>
+
+                </div>
+                <div class="item item-8">
+                    <div class="item-content">
+                        <span>English</span>
+                        <a href="ue_english_64.exe">Download 64-bit</a>
+                    </div>
+
+                </div>
+                <div class="item item-9">
+                    <div class="item-content">
+                        <span>English</span>
+                        <a href="ue_english_64.exe">Download 64-bit</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

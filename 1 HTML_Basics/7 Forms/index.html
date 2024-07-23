@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms- Lets get started</title>
+</head>
+<body>
+    <form action="post">
+
+    <h1>Application to apply for Avengers Team.</h1>
+    
+    <div>
+        <label for="Email">Enter your email : </label>
+        <input type="email" id="Email" required>
+    </div>
+
+    <div>
+        <label for="username">Enter your username : </label>
+        <input  type="username" id="username" placeholder="Enter your username" required>
+    </div>
+
+    <div>
+        <label for="username">Enter your password here</label>
+        <input type="password" id="password"  required>
+    </div>
+
+    <div>
+        <label for="Dob">Please Enter Your DOB : </label>
+        <input type="date" id="Dob" required>
+    </div>
+
+    <div>
+        <label >Enter your gender : </label>
+
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+
+    </div>
+
+
+    <div>
+        <label for="Powers">Select your SuperPower :</label>
+        <select name="Powers" id="Powers">
+            <option value="Select">Select</option>
+            <option value="Durability">Durability</option>
+            <option value="SuperStrength">SuperStrength</option>
+            <option value="SuperSpeed">SuperSpeed</option>
+            <option value="Agility">Agility</option>
+            <option value="SuperHealing">SuperHealing</option>
+        </select>
+    </div>
+
+    <div>
+        <br>
+        <textarea name="SuperPower" id="SuperPower" cols="35" rows="5" placeholder="Describe your Super-Power here.."></textarea>
+        
+    </div>
+
+    <div>
+        <br>
+        <label for="Suit">Please choose the colour for your suit : </label>
+        <input type="color" id="Suit">
+    </div>
+
+    <div>
+        <br>
+        <label for="file">Your favourite Super Hero image :</label>
+        <input type="file" name="file" id="file">
+    </div>
+
+    <div>
+        <label for="url">Enter URL of ur Instagram :
+        </label>
+        <input type="url" id="url" name="url">
+
+    </div>
+
+    <div>
+        <br>
+        <input type="submit">
+    </div>
+
+
+    </form> 
+</body>
+</html>

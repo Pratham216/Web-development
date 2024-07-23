@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    </style>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: "Poppins", sans-serif;
+        }
+
+        body {
+            background-color:  rgb(42, 41, 41);
+        }
+
+        header {
+            position: sticky;
+            top: 0px;
+        }
+
+        nav {
+            background-color: rgb(16, 15, 15);
+            padding: 40px;
+        }
+
+        ul li {
+            display: inline;
+            font-weight: bolder;
+            padding: 36px 135px
+        }
+
+        ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        ul li a:hover {
+            color: rgb(54, 35, 199);
+            transition: color 0.3s ease;
+        }
+
+        nav ul li a::selection {
+            color: black;
+            background-color: white;
+        }
+
+        .container {
+            background-color: rgb(42, 41, 41);
+            display: flex;
+            padding: 10px;
+            padding-bottom: 20px;
+            padding-top: 5px;
+            color: white;
+        }
+
+        .box1 {
+            background-color: rgb(12, 1, 20);
+            height: 75vh;
+            width: 50vw;
+            margin: 5px 10px;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .box2 {
+            background-color:rgb(12, 1, 20);
+            height: 75vh;
+            width: 50vw;
+            margin: 5px 10px;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .content {
+            text-align: center;
+            border: 2px solid black;
+            background-color: black;
+            color: white;
+            padding: 17px;
+            margin: 22px 29vw;
+            border-radius: 30px;
+            font-size: larger;
+            font-weight: bolder;
+        }
+
+        .chatbot {
+            height: 104px;
+            width: 104px;
+            background-color: orange;
+            position: fixed;
+            bottom: 12px;
+            right: 12px;
+            border-radius: 50px;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            /* Horizontally center the content */
+            align-items: center;
+            /* Vertically center the content */
+        }  
+         
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/">About Us</a></li>
+                <li><a href="/">Contact Us</a></li>
+                <li><a href="/">Services</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="box1">Image here</div>
+            <div class="box2">Image here</div>
+        </div>
+
+        <div class="border">
+            <div class="content">
+                Welcone to My Webpage
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="sticker">
+            <div class="chatbot">
+                Chatbot
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
